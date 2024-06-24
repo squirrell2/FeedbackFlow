@@ -11,4 +11,8 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="7.0.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FeddbackFlow.Data.EfModels\FeddbackFlow.Data.EfModels.csproj" />
+  </ItemGroup>
+
 </Project>

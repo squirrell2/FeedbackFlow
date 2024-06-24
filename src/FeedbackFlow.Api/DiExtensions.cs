@@ -1,4 +1,5 @@
-﻿using FeedbackFlow.Data.MigrationPostgreSql;
+using FeedbackFlow.Api.Logic.Services.FeedBackApplication;
+using FeedbackFlow.Data.MigrationPostgreSql;
 using FeedbackFlow.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,7 +23,7 @@ namespace FeedbackFlow.Api
 
         public static IServiceCollection AddApplicationServises(this IServiceCollection services, IConfiguration configuration)
         {
-            return services;
+            return services.AddScoped<IFeedbackApplicationHandler, FeedbackApplicationHandler>();
         }
     }
 }

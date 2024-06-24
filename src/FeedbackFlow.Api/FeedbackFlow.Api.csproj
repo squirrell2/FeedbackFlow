@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a7878ee3-f990-49dd-a9a2-b2b949e96815</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FeedbackFlow.Api.Logic\FeedbackFlow.Api.Logic.csproj" />
     <ProjectReference Include="..\FeedbackFlow.Data.MigrationPostgreSql\FeedbackFlow.Data.MigrationPostgreSql.csproj" />
     <ProjectReference Include="..\FeedbackFlow.Infrastructure\FeedbackFlow.Infrastructure.csproj" />
   </ItemGroup>

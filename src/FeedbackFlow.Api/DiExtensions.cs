@@ -1,4 +1,4 @@
-using FeedbackFlow.Api.Logic.Services.FeedBackApplication;
+using FeedbackFlow.Api.Logic;
 using FeedbackFlow.Data.MigrationPostgreSql;
 using FeedbackFlow.Infrastructure;
 using Microsoft.EntityFrameworkCore;

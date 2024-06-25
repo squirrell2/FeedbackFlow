@@ -2,6 +2,10 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Hosting;
 
 namespace FeedbackFlow.Api.Tests.Fixture;
+
+/// <summary>
+/// Фабрика тестирования Api
+/// </summary>
 public class ApiTestFactory : WebApplicationFactory<Startup>
 {
     protected override IHost CreateHost(IHostBuilder builder)

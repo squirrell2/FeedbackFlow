@@ -38,7 +38,7 @@ public class FeedbackApplicationHandler : IFeedbackApplicationHandler
             Name = x.Name,
             DateEdit = x.DateEdit
         }).ToList();
-    }
+}
 
     public async Task<FeedbackApplicationResponseItem> Create(FeedbackApplicationCreateItem createItem, CancellationToken token)
     {

@@ -9,19 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeedbackFlow.Api", "src\Fee
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B6260F72-9C62-4FF5-BA20-E942BB43B71D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedbackFlow.Api.Tests", "test\FeedbackFlow.Api.Tests\FeedbackFlow.Api.Tests.csproj", "{C74B78F6-03D2-49A0-8D40-2EDCE5068828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeedbackFlow.Api.Tests", "test\FeedbackFlow.Api.Tests\FeedbackFlow.Api.Tests.csproj", "{C74B78F6-03D2-49A0-8D40-2EDCE5068828}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{29B94202-09C2-4476-88B2-703C4F59C8C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedbackFlow.Sample.Console", "sample\FeedbackFlow.Sample.Console\FeedbackFlow.Sample.Console.csproj", "{3E024C53-3559-4513-9EB2-70459D24EB14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeedbackFlow.Sample.Console", "sample\FeedbackFlow.Sample.Console\FeedbackFlow.Sample.Console.csproj", "{3E024C53-3559-4513-9EB2-70459D24EB14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedbackFlow.Data.MigrationPostgreSql", "src\FeedbackFlow.Data.MigrationPostgreSql\FeedbackFlow.Data.MigrationPostgreSql.csproj", "{9B1547B4-2B13-4322-AAC6-C6AF895F2830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeedbackFlow.Data.MigrationPostgreSql", "src\FeedbackFlow.Data.MigrationPostgreSql\FeedbackFlow.Data.MigrationPostgreSql.csproj", "{9B1547B4-2B13-4322-AAC6-C6AF895F2830}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeddbackFlow.Data.EfModels", "src\FeddbackFlow.Data.EfModels\FeddbackFlow.Data.EfModels.csproj", "{4DBA05BB-B92B-4506-B87C-6A2D3A7CA68E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedbackFlow.Infrastructure", "src\FeedbackFlow.Infrastructure\FeedbackFlow.Infrastructure.csproj", "{27602D0E-93D6-4907-A9A2-D3AAB3C20997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeedbackFlow.Infrastructure", "src\FeedbackFlow.Infrastructure\FeedbackFlow.Infrastructure.csproj", "{27602D0E-93D6-4907-A9A2-D3AAB3C20997}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedbackFlow.Api.Logic", "src\FeedbackFlow.Api.Logic\FeedbackFlow.Api.Logic.csproj", "{2F3C1C0A-F6A5-4B82-A88E-866D83559E1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeedbackFlow.Api.Logic", "src\FeedbackFlow.Api.Logic\FeedbackFlow.Api.Logic.csproj", "{2F3C1C0A-F6A5-4B82-A88E-866D83559E1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7DF94B70-9622-4CE8-87D4-044206720AB7}"
 	ProjectSection(SolutionItems) = preProject
